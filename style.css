@@ -1,0 +1,151 @@
+body {
+    background-color: #55325e;
+}
+
+
+.container {
+    background-color: #205359;
+    display: flex;
+    margin-left: 33rem;
+    margin-top: 3rem;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.headerTitle {
+    text-align: center;
+    padding: 4px;
+    background-color: #00000071;
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+    border-radius: 5px;
+    font-family: 'Prompt', sans-serif;
+
+    font-size: 15px;
+
+
+}
+
+.japanimage {
+    padding: 5px 2px 2px 5px;
+    max-width: 25rem;
+    margin-right: 20rem;
+    height: 665px;
+    border-radius: 10px;
+}
+
+.submitForm {
+    padding: 5px 2px 2px 5px;
+    margin-left: 1rem;
+    flex: 1;
+}
+
+.imgContain {
+    max-width: 25rem;
+}
+
+
+.formDescription {
+    color: rgb(255, 255, 255);
+    font-family: 'Prompt', sans-serif;
+}
+
+
+.form-control {
+    display: block;
+    width: 90%;
+    height: 32px;
+    padding: 6px 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+.headerPath {
+    margin: 10px 0px 20px 20px;
+    padding: 5px;
+    background-color: #00000071;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 13px;
+    width: 300px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 140px;
+    align-content: flex-start;
+}
+
+
+.pathHeading {
+    width: 300px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+
+.buttonChose {
+    height: 40px;
+    /* margin-bottom: 30px; */
+    width: 300px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    height: 2.5rem;
+    border-radius: 5px 5px 0% 0%;
+
+}
+
+.pathBtn {
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    width: 65rem;
+    border: #ffffff;
+    border-radius: 5px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+.pathBtn:hover {
+    background-color: #8a1c6e59;
+}
+
+.pathBtn:focus {
+    background-color: #8a1c6e59;
+}
+
+
+.subBtn {
+    padding: 7px;
+    display: flex;
+    height: 2rem;
+    width: 300px;
+    border: #ffffff;
+    border-radius: 0% 0% 5px 5px;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.subBtn:hover {
+    background-color: #205359;
+}
